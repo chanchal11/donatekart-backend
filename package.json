@@ -1,0 +1,27 @@
+{
+  "name": "donatekart-backend",
+  "version": "1.0.0",
+  "description": "Node.js and Express.js based API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chanchal11/donatekart-backend.git"
+  },
+  "author": "Chanchal Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chanchal11/donatekart-backend/issues"
+  },
+  "homepage": "https://github.com/chanchal11/donatekart-backend#readme",
+  "dependencies": {
+    "axios": "^0.22.0",
+    "body-parser": "1.15.0",
+    "cors": "2.7.1",
+    "express": "4.13.4",
+    "moment": "^2.29.1",
+    "morgan": "1.7.0"
+  }
+}
