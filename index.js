@@ -1,7 +1,7 @@
 const app = require('./app');
 
 function init() {
-	app.listen(5000, () => {
+	app.listen(process.env.PORT || 5000, () => {
 		console.log(`API Server started.`);
 	});
 }
